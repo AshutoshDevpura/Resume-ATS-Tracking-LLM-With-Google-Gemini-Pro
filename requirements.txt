@@ -1,0 +1,6 @@
+streamlit
+streamlit_lottie
+PyPDF2
+google-generativeai
+python-dotenv
+watchdog
