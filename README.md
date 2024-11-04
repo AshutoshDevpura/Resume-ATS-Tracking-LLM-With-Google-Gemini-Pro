@@ -3,6 +3,27 @@
 
 Welcome to the **ATS Resume Checker**! This tool leverages the power of **Large Language Models (LLM)** and **Generative AI (GenAI)** to review your resume based on specific job descriptions. Get a score out of 100 and discover which keywords are missing to make your resume ATS-compliant for tech jobs!
 
+
+## 🔑 Setting Up Google API Key
+
+This application requires a Google API key. Follow these steps to configure the environment variable securely:
+
+1. **Duplicate the Sample Environment File**:  
+   In the root directory of the project, locate the `.env_sample` file and make a copy of it, renaming the copy to `.env`:
+   ```bash
+   cp .env_sample .env
+   ```
+
+2. **Add Your Google API Key**:  
+   Open the newly created `.env` file in a text editor and replace `YOUR_API_KEY_HERE` with your actual Google API key:
+   ```plaintext
+   GOOGLE_API_KEY="your_google_api_key"
+   ```
+
+3. **Save the `.env` File**:  
+   Ensure the `.env` file is saved in the project’s root directory. This file will be automatically loaded at runtime to provide the Google API key securely.
+
+
 ## 🚀 Getting Started
 
 Follow these steps to set up and run the application.
